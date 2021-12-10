@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    /* Projects */
+    "target": "es6",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+
+    /* Modules */
+    "module": "commonjs",
+    "rootDir": "./src",
+    "typeRoots": [
+      "./src/@types",
+      "./@types",
+      "./node_modules/@types"
+    ],
+
+    /* Emit */
+    "outDir": "./build",
+
+    /* Interop Constraints */
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* Type Checking */
+    "strict": true,
+    "strictNullChecks": false,
+    "strictPropertyInitialization": false,
+
+    /* Completeness */
+    "skipLibCheck": true
+  }
+}
